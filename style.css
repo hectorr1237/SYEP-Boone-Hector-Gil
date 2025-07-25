@@ -1,18 +1,42 @@
 *{
     margin:0;
     padding: 0;
-    box-sizzing:border-box;
+    box-sizzing: border-box;
 }
 
-body
-    background-color; rgb (156,222,173);
+body{
+    background-color: red
     text-align: center;
     Line-height: 2.1;
 }
+
 
 .hero img{ 
     border-radius: 50%;
 }
 
 .accent{
-    color rgb (156,46,18)
+    color:red rgb (156,46,18)
+    font-style: italic;
+    font-weight: bold;
+}
+
+img {
+    width: 300;
+    height: auto;
+}
+
+@media screen(max-width: 768px) {
+    body(background-color: blue)
+}
+
+.grid{
+    display: flex;
+    justify-content: end;
+   justify-content: space-around;
+   flex-wrap: wrap;  
+}
+
+.grid div{
+    background-color:blue;
+}
